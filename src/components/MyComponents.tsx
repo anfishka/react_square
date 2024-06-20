@@ -5,7 +5,8 @@ interface MyComponentProps{ }
 
 const MyComponent: FC<MyComponentProps> = () => (
     <>
-    <StyledButton />
+        <StyledButton variant="contained" children={'Click me'} />
+         <StyledButton variant="text" children={'Click !!!'} />
     </>
 )
 
