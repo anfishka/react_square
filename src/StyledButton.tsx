@@ -16,8 +16,8 @@ align-items:center;
 text-aligh:center;
 width:300px; 
 height:300px; 
-  background-color: ${props => props.variant === 'contained' ? props.bgColor || 'red' : 'blue'};
-  color: ${props => props.variant === 'contained' ? props.textColor || 'white' : 'black'};
+background-color: ${props => props.variant === 'contained' ? props.bgColor || 'red' : 'blue'};
+color: ${props => props.variant === 'contained' ? props.textColor || 'white' : 'black'};
 
 `
 const StyledButton: React.FC<ButtonProps> = ({  variant, children }) => {
